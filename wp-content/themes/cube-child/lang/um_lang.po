@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cube\n"
+"POT-Creation-Date: 2013-07-24 14:09+0100\n"
+"PO-Revision-Date: 2013-07-24 14:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\cube\\wp-content\\themes\\cube\n"
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/archive.php:10
+msgid "You are here:"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/comments.php:4
+msgid "Show Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/content-profile-post.php:11
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:72
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:122
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:620
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:471
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/content-profile-post.php:14
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:534
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:623
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:474
+msgid "Delete"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/footer.php:35
+msgid "Follow us:"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/functions.php:512
+msgid "Import Options"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/functions.php:516
+msgid "Import"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:35
+msgid "Login failed, username and password combination missmatch!"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:36
+msgid "This user exists, please choose another one."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:37
+msgid "This e-mail exists, please choose another one."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:38
+msgid "This Facebook account, does not exist on our system."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:39
+msgid "The reset password e-mail was sent successfully"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:40
+msgid "This e-mail does not exist on our system!"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:85
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:120
+msgid "Login"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:85
+msgid "or"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:85
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:141
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:177
+msgid "Create an account"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:90
+msgid "New Post"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:91
+msgid "Account"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:131
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:154
+msgid "Facebook"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:134
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:163
+msgid "Forgot Password"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:134
+msgid "New Account"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:144
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:48
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:559
+msgid "Name"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:147
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:166
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:52
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:93
+msgid "Email"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:150
+msgid "Sign Up"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:153
+msgid "or connect with"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/header.php:169
+msgid "Reset Password"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/single.php:21
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-audio.php:55
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-magazine.php:25
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-video.php:69
+msgid "Like this"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/single.php:30
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-audio.php:64
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-magazine.php:34
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-video.php:78
+msgid "Dislike this"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:35
+msgid "Find us on map"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:56
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:205
+msgid "Message"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:60
+msgid "Send"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-contact.php:76
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:101
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-profile.php:98
+msgid "About"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-home-masonry.php:156
+msgid "Load more"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-home.php:12
+msgid "Popular"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-home.php:13
+msgid "Featured"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:43
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:104
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:128
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:203
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:51
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:108
+msgid "Choose Post Category:"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:64
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:115
+msgid "Enter media tags, seperate them with comma"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:71
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:121
+msgid "Remove"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:82
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:128
+msgid "Choose Featured Image"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:82
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/template-submit.php:128
+msgid "Add Image"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:70
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-profile.php:25
+msgid "My Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:71
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-profile.php:26
+msgid "Edit profile"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:82
+msgid "Edit Profile"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:85
+msgid "Username"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:89
+msgid "Password"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-edit-profile.php:97
+msgid "Avatar"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/user-profile.php:80
+msgid "Liked Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-audio.php:80
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/formats/format-video.php:93
+msgid "Details"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:138
+msgid "Map address"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:139
+msgid "Return the address along with the coordinates."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:158
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:144
+msgid "Map center"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:159
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:145
+msgid "Latitude and longitude to center the initial map."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:173
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:159
+msgid "Map zoom"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:188
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:174
+msgid "Map Scrollwheel"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:189
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:175
+msgid "Allows scrollwheel zooming on the map field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:274
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:245
+msgid "This address could not be found: "
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:289
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:260
+msgid "This place could not be found: "
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:369
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:340
+msgid "Search for a location"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:371
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:342
+msgid "Find the complete address"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:371
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:342
+msgid "Address: "
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v3.php:373
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:344
+msgid "Coordinates: "
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/acf-location-field/location-v4.php:125
+msgid "Return Value"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:87
+msgid "Flexible Content requires at least 1 layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:531
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:640
+msgid "Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:533
+msgid "Reorder Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:533
+msgid "Reorder"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:534
+msgid "Delete Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:538
+msgid "Add New Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:538
+msgid "Add New"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:539
+msgid "Duplicate Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:539
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:622
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:473
+msgid "Duplicate"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:549
+msgid "Label"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:569
+msgid "Display"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:590
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:441
+msgid "Field Order"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:591
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:638
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:442
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:490
+msgid "Field Label"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:592
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:654
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:443
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:506
+msgid "Field Name"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:593
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:669
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:444
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:521
+msgid "Field Type"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:601
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:452
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:617
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:620
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:468
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:471
+msgid "Edit this Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:621
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:472
+msgid "Read documentation for this field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:621
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:472
+msgid "Docs"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:622
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:473
+msgid "Duplicate this Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:623
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:474
+msgid "Delete this Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:639
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:491
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:655
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:507
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:684
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:536
+msgid "Field Instructions"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:704
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:556
+msgid "Column Width"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:705
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:557
+msgid "Leave blank for auto"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:735
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:589
+msgid "Close Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:735
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:589
+msgid "Close Sub Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:749
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:604
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:750
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:605
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-flexible-content/flexible-content.php:757
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:659
+msgid "Button Label"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-options-page/acf-options-page.php:454
+msgid "No Custom Field Group found for the options page"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-options-page/acf-options-page.php:454
+msgid "Create a Custom Field Group"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-options-page/acf-options-page.php:465
+msgid "Publish"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-options-page/acf-options-page.php:469
+msgid "Save Options"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:433
+msgid "Repeater Fields"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:584
+msgid "Save Field"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:612
+msgid "Minimum Rows"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/includes/addons/acf-repeater/repeater.php:626
+msgid "Maximum Rows"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:128
+msgid "Content"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:131
+msgid "Add Row"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:132
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:207
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:273
+msgid "Get Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:196
+msgid "Type"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:198
+msgid "Info"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:199
+msgid "Success"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:200
+msgid "Warning"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/shortcodes/dialog-forms.php:201
+msgid "Error"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-related.php:75
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:75
+msgid "Widget Title"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:79
+msgid "Posts Order"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:81
+msgid "Most Clicked"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:82
+msgid "Most Discussed"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:83
+msgid "Most Liked"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:84
+msgid "Custom Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:88
+msgid "Number of posts"
+msgstr ""
+
+#: C:\xampp\htdocs\cube\wp-content\themes\cube/widgets/widget-topposts.php:92
+msgid "Write post IDs on a comma separated list."
+msgstr ""

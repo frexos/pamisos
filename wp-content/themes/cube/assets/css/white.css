@@ -1,0 +1,425 @@
+body {
+	font-family: "Arvo", sans-serif;
+	background-color: #ffffff !important;
+}
+
+.not-logged, .logged {
+	font-family: Arial;
+}
+
+.not-logged a, .not-logged span, #header .header-top-section .account-section a, .newsletter.newsletter-widget input[type=submit] {	
+	font-size: 12px !important;
+	font-weight: 700 !important;
+}
+
+.menu-section {
+	background-color: #ffffff !important;
+}
+
+#header .header-top-section {
+	border-bottom: 0px;
+}
+
+.menu-section > div.container > div.row > div.span12 {
+	border-bottom: 3px solid #ebeff2;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.menu-section .row > .span12 > div > ul li a, .menu-section .row > .span12 a {
+	border-left: 0px;
+	font-family: Arial;
+	font-weight: 700;
+	color: #606060;
+	font-size: 14px;
+	text-transform: none;
+}
+
+.menu-section .row > .span12 > div > ul > li:hover, .current-menu-item {
+	border-bottom: 3px solid #e45033;
+	padding-bottom: 1px;
+}
+
+.menu-section .row > .span12 > div > ul > li:hover a, .current-menu-item a {
+	color: #000000;
+}
+
+.menu-section .row > .span12 > div > ul > li:last-child a {
+	border-right: 0px;
+}
+
+.white-top {
+	margin-top: 27px;
+}
+
+#header .header-top-section form.main-search input {
+	border:0px;
+	font-family: "Arvo";
+	font-size: 14px;
+	font-weight: 400;
+	color: #606060;
+}
+
+#header .header-top-section form.main-search input::-webkit-input-placeholder {
+	border:0px;
+	font-family: "Arvo";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	color: #a8a8a8;
+}
+
+#header .header-top-section form.main-search p {
+	width: 341px;
+	display: inline-block;
+}
+
+#header .header-top-section form.main-search button {
+	display: inline-block;
+	top: 50%;
+	margin-top: -20px;
+	background-color: transparent;
+	font-size: 16px;
+	color: #868686 !important;
+}
+
+#header .header-top-section form button[type=submit]:hover {
+	background-color: transparent !important;
+	color: #868686 !important;
+}
+
+.span6.feat-post .post-title h4 a {
+	font-family: "Arvo"; 
+}
+
+.pop-button, .feat-button {
+	font-family: Arial;
+	text-transform: none;
+}
+
+.pop-button i, .feat-button i {
+	margin-bottom: 12px;
+}
+
+.pop-button span {
+	margin-top: -27px;
+	margin-left: -25px;
+}
+
+.feat-button span {
+	margin-top: -27px;
+	margin-left: -29px;
+}
+
+.feat-posts-list ul > li > h5 a {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.views-counter, .views, .views-count, .related-views, .post-views, .span6.feat-post .post-title > span {
+	font-family: Arial;
+}
+
+.span6.feat-post .post-img span.views {
+	font-size: 12px;
+}
+
+.category-row.row.one .post .post-brief h5 a, .category-row.row.two .post .post-brief h5 a, .home-one .post .post-brief > h5 a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #606060;
+}
+
+.category-row.row.one .post .post-brief, .home-one .post .post-brief, .category-row.row.two .post, .home-one .post, .post-brief {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding: 17px 0px !important;
+}
+
+.category-row.row.two .post .related-posts ul li {
+	border-top: 2px solid #ebeff2;
+	background-color: transparent;
+	padding: 17px 0px !important;
+}
+
+.category-title span, .widget-title span, .edit-dialog .dialog-title span {
+	font-family: Arial;
+	font-size: 15px;
+	text-transform: none;
+}
+
+.about-user-cont, .textwidget, .newsletter.newsletter-widget, .widget.widget_archive ul, .widget.widget_categories > ul, .widget.widget_pages ul, .widget.widget_meta ul, .widget.widget_recent_comments ul, .widget.widget_recent_entries ul, .widget.widget_rss ul, .widget.widget_nav_menu > div > ul {
+	padding: 20px 0px !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.top-five-widget ul, .widget.widget_calendar #calendar_wrap {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.top-five-widget ul li {
+	padding: 20px 0px;
+}
+
+.top-five-widget ul li + li {
+	border: 0px;
+}
+
+.top-five-widget ul li > h5 a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #606060;
+}
+
+.widget.widget_calendar #calendar_wrap {
+	padding: 0px;
+}
+
+#footer .top-footer .twitter-widget .span12 p, #footer .top-footer .twitter-widget p a {
+	font-family: Arial;
+	font-style: italic;
+}
+
+#footer .mid-footer {
+	background-color: #5c5c5c;
+}
+
+#footer .footer-bottom {
+	background-color: #6c6c6c;
+}
+
+.home-type > h3 {
+	font-family: 'Arvo';
+}
+
+.page-posts.masonry .post .post-brief {
+	padding: 17px 18px !important;
+	-webkit-box-shadow: 0px 1px 1px rgba(170, 170, 170, 0.4);
+	-moz-box-shadow: 0px 1px 1px rgba(170, 170, 170, 0.4);
+	box-shadow: 0px 1px 1px rgba(170, 170, 170, 0.4);
+}
+
+.home-one a.load-more {
+	font-family: Arial
+}
+
+.feat-posts-blocks > ul li .hover-state h5 {
+	font-size: 14px;
+	font-family: 'Arvo';
+	font-weight: 400;
+}
+
+.feat-posts-blocks > ul li .hover-state {
+	background-image: none;
+}
+
+.feat-posts-blocks > ul li .hover-state p.views {
+	font-size: 12px;
+}
+
+.user-profile-top, .add-post-top, .article.single-post .article-section, .category-page .category-top {
+	background-color: #f8f8f8; 
+}
+
+.article.single-post ul.informations li {
+	font-family: 'Arvo';
+}
+
+.article.single-post ul.informations li i {
+	color: #909090
+}
+
+.article.single-post ul.informations li p, .article.single-post ul.informations li a {
+	font-size: 12px;
+	color: #909090
+}
+
+.article.single-post .post-content .main-content .article-content .post-title h4 {
+	font-family: 'Arvo';
+	font-size: 22px;
+	color: #ffffff;
+	text-transform: none;
+}
+
+
+.article.single-post .post-content .main-content .article-content .post-title .post-category a {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.post-main-cont *, .video.single-post .span8.main-content .toggle-content *, .audio.single-post .span8.main-content .toggle-content * {
+	font-family: "Arvo";
+}
+
+.post-main-cont p, .video.single-post .span8.main-content .toggle-content p, .audio.single-post .span8.main-content .toggle-content p {
+	font-family: 'Arvo';
+	color: #646464;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 26px;
+}
+
+.post-main-cont, .video.single-post .span8.main-content .details ul, .audio.single-post .span8.main-content ul, .article.single-post .post-content .main-content .article-content, .post-comments {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.post-main-cont, .video.single-post .span8.main-content .details ul, .audio.single-post .span8.main-content .details ul {
+	padding: 30px 0px !important
+}
+
+.post-tags ul li a, .widget.widget_tag_cloud > div a {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.post-comments a.show-hide-comments, h3#reply-title, .video.single-post .span8.main-content .toggle-button, .audio.single-post .span8.main-content .toggle-button {
+	background: transparent;
+	border-bottom: 2px solid #ebeff2; 
+	padding-left: 0px;
+}
+
+.post-comments a.show-hide-comments, h3#reply-title, .video.single-post .span8.main-content .toggle-button, .audio.single-post .span8.main-content .toggle-button {
+	font-family: Arial;
+	font-weight: 700;
+	font-size: 15px;
+	color: #5c5c5c;
+	text-transform: none;
+}
+
+.post-comments a.show-hide-comments i, .video.single-post .span8.main-content .toggle-button i, .audio.single-post .span8.main-content .toggle-button i {
+	right: 0px;
+}
+
+.article-content .post-main-cont {
+	padding-bottom: 0px !important;
+}
+
+.user-profile-top p, .category-top h5, .bread-crumb p, .bread-crumb a, .bread-crumb li {
+	font-family: "Arvo";
+	font-size: 12px;
+	color: #909090;
+}
+
+.login .l_holder > h4, .signup .s_holder > h4, .forgot-password .s_holder > h4, .messages .message_holder > h4 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	color: #696969;
+	text-transform: none;
+}
+
+.login .l_holder form input[type=text], .signup .s_holder form input[type=text], .forgot-password .s_holder form input[type=text], .login .l_holder form input[type=email], .signup .s_holder form input[type=email], .forgot-password .s_holder form input[type=email], .login .l_holder form input[type=password], .signup .s_holder form input[type=password], .forgot-password .s_holder form input[type=password] {
+	font-family: Arial;
+}
+
+.login .l_holder form input[type=submit], .signup .s_holder form input[type=submit], .signup .s_holder form a.facebook-signup, a.facebook-login, .edit-profile input[type=submit], .forgot-password .s_holder form input[type=submit] {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.signup .s_holder form p.j-text, .login .l_holder form p.qw, .login .l_holder form p.qw a {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.article.single-post ul.informations li a, .article.single-post ul.informations li p, .video-section ul.informations li a, .video-section ul.informations li p, .audio-section ul.informations li a, .audio-section ul.informations li p {
+	font-size: 12px;
+}
+
+.video-section .video-title, .audio-section .audio-title {
+	font-family: 'Arvo';
+	font-size: 26px;
+	text-transform: none;
+}
+
+.video-section .video-category a, .audio-section .audio-category a {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.details .toggle-button {
+	border-top: 0px !important;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 0px !important;
+}
+
+.video.single-post .span8.main-content .details ul {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important
+}
+
+.video.single-post .span8.main-content .details .toggle-button i {
+	margin-top: 0px;
+	top: 0px;
+}
+
+.post-main-cont, .video.single-post .span8.main-content .toggle-content, .audio.single-post .span8.main-content .toggle-content {
+	border: 0px;
+	padding: 30px 0px 0px; 
+}
+
+.post-tags ul {
+	padding: 0px !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.about-user-cont p, .contact-text > * {
+	font-family: 'Arvo';
+	font-size: 13px;
+	color: #646464;
+}
+
+.about-user-cont {
+	padding: 0px !important;
+}
+
+.user-profile-top.usr-prof {
+	background-color: #6b6b6b; 
+}
+
+.user-profile-top .user-pic > h4 {
+	font-family: 'Arvo';
+	font-family: 18px;
+}
+
+.user-profile-top .user-pic > p {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.span6 a.my-posts, .span8 a.edit-prof {
+	font-size: 13px;
+}
+
+.add-post-top .span12 h5 {
+	font-family: 'Arvo';
+	font-size: 20px;
+	color: #909090;
+	text-transform: none;
+}
+
+.slider-two > .container > .row > div .post-title {
+	font-family: 'Arvo';
+}
+
+.slider-two.masonry {
+	background-color: #ffffff;
+}
+
+.slider-two > .container > .row > div .post-title h4 {
+	line-height: 42px;
+}
