@@ -18,7 +18,8 @@ function my_scripts_method() {
     wp_enqueue_script( 'serialScroll',get_template_directory_uri()."/assets/js/jquery.serialScroll-1.2.2-min.js",false,1.0,true );
     wp_enqueue_script( 'twitter-text',get_template_directory_uri()."/assets/js/twitter-text.js",false,1.0,true );
     wp_enqueue_script( 'mediaelement',get_template_directory_uri()."/assets/mediaelement/mediaelement-and-player.js",false,1.0,true );
-    wp_enqueue_script( 'googlemaps',"https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC8P_j8P4XIFv_Ks1MxSl0_ZDTCiWX3XrU",false,1.0,true );
+    //wp_enqueue_script( 'google_maps',"https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDKFOU1uU91vrPl21PYdwBnFYfnUg0OsHw",false,1.0,true );
+  	wp_enqueue_script("google_map","https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFSA04UQVh2e56stH7y86PZy3i11fEzc",'','',TRUE);
     wp_enqueue_script( 'masonry',get_template_directory_uri()."/assets/js/jquery.masonry.js",false,1.0,true );
     wp_enqueue_script( 'customScrollbar',get_template_directory_uri()."/assets/js/jquery.mCustomScrollbar.min.js",false,1.0,true );
     wp_enqueue_script( 'swipe',get_template_directory_uri()."/assets/js/jquery.event.swipe.js",false,1.0,true );

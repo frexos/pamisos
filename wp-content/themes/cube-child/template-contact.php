@@ -39,7 +39,7 @@ get_header();
                             $zoom = get_field("google_map_zoom_level") ? get_field("google_map_zoom_level") : 4;
                             if($coordinates):
                         ?>
-                        <div id="map" data-zoom="<?php echo $zoom; ?>" data-title="<?php echo $map["address"]; ?>" data-lat="<?php echo $coordinates[0]; ?>" data-lang="<?php echo $coordinates[1]; ?>" style="width:100%; height:500px;"></div>
+                        <div id="map" data-zoom="<?php echo $zoom; ?>" data-title="<?php echo $map["address"]; ?>" data-lat="<?php echo $map['lat']; ?>" data-lang="<?php echo $map['lng']; ?>" style="width:100%; height:500px;"></div>
                         <?php endif; ?>
                         <?php if(get_field("receiving_email")): ?>
                         <div class="contact-form">
