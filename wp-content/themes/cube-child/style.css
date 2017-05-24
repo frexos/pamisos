@@ -8,10 +8,20 @@ Text Domain:  cube-child
 */
 /*@import url("../cube/assets/css/style.css");*/
 
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+#header .header-top-section {
+    padding-top: 5px;
+    line-height: 40px;
+}
+
 .pam-account {
     width: 100%;
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 6;
     margin: 0;
 }
@@ -26,7 +36,7 @@ Text Domain:  cube-child
 }
 
 .log-btn-wrapper {
-    margin-top: 260px;
+    margin-top: 20px;
 }
 
 .pam-home-moto {
@@ -37,8 +47,8 @@ Text Domain:  cube-child
 .pam-home-moto p {
     max-width: 830px;
     color: white;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .home .main-section {
@@ -96,14 +106,48 @@ Text Domain:  cube-child
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 480px) {
+
+    .logo img {
+        width: initial;
+    }
+
+    #header .header-top-section {
+        padding-top: 0;
+        line-height: 117px;
+    }
+
     .categories-single__wrapper {
         width: 50%;
+    }
+
+    .log-btn-wrapper {
+        margin-top: 20px;
+    }
+
+    .pam-home-moto p {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .pam-account {
+        position: relative;
+    }
+
+    .log-btn-wrapper {
+        margin-top: 84px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .categories-single__wrapper {
         width: 33.3333333%;
+    }
+
+    .log-btn-wrapper {
+        margin-top: 180px;
     }
 }
 
@@ -112,6 +156,10 @@ Text Domain:  cube-child
         width: 236px;
         height: 177px;
         margin-left: 30px;
+    }
+
+    .log-btn-wrapper {
+        margin-top: 260px;
     }
 }
 
