@@ -74,7 +74,7 @@ if(isset($_POST["um_paged"]) && $_POST["um_paged"]){
                 <div class="pam-account account-section span5">
                     <?php if(!is_user_logged_in()): ?>
                         <div class="log-btn-wrapper not-logged visible">
-                            <div><a href="#" class="pam-hero-btn login-button"><?php _e("Login","um_lang"); ?></a></div> <span><?php _e("or","um_lang"); ?></span> <div><a href="#" class="pam-hero-btn signup-button"><?php _e("Create an account","um_lang"); ?></a></div>
+                            <div><a href="#" class="pam-hero-btn login-button"><?php _e("Login","um_lang"); ?></a></div> <div><a href="#" class="pam-hero-btn signup-button"><?php _e("Create an account","um_lang"); ?></a></div>
                         </div>
                     <?php else: ?>
                         <div class="log-btn-wrapper logged">

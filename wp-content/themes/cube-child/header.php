@@ -114,7 +114,7 @@
                 <div class="account-section span5">
                     <?php if(!is_user_logged_in()): ?>
                     <div class="not-logged visible">
-                        <p><a href="#" class="login-button"><?php _e("Login","um_lang"); ?></a> <span><?php _e("or","um_lang"); ?></span> <a href="#" class="signup-button"><?php _e("Create an account","um_lang"); ?></a></p>
+                        <p><a href="#" class="login-button"><?php _e("Login","um_lang"); ?></a><a href="#" class="signup-button"><?php _e("Create an account","um_lang"); ?></a></p>
                     </div>
                     <?php else: ?>
                     <div class="logged">
