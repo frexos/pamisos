@@ -110,6 +110,15 @@ mobile-menu-holder {
     padding-bottom: 0!important;
 }
 
+.home-one a.load-more {
+    background-color: #ff8100;
+    color: #FFFFFF;
+}
+
+.home-one a.load-more i {
+    color: #FFFFFF;
+}
+
 .categories-single__wrapper {
     width: 100%;
     display: flex;

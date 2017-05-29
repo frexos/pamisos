@@ -611,7 +611,7 @@ jQuery(document).ready(function($){
             e.preventDefault();
             var the_url = $(this).attr("href");
             var this_obj = $(this);
-            $.post(the_url,{um_paged : current_page},function(data){
+            $.get(the_url,{um_paged : current_page},function(data){
                 if(data){
                     data = $(data);
                     current_page++;
