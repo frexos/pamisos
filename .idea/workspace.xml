@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5b096f-eaed-4cea-9bee-9383cf26174c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/assets/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/content-post-masonry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/content-profile-post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/content-related.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/content-reviews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/formats/format-audio.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/formats/format-magazine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/formats/format-video.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/includes/breadcrumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/template-submit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/user-edit-profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/user-profile.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/04/kalamata-port-370x278.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/lang/el.mo" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/lang/el.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/lang/el.po" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/lang/el.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/script.js" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/template-home-masonry.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/template-home-masonry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube-child/template-masonry.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube-child/template-masonry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/advanced-custom-fields/core/api.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/advanced-custom-fields/core/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/assets/js/script.js" afterPath="$PROJECT_DIR$/wp-content/themes/cube/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/content-home-post.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/content-home-post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/content-post-masonry.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/content-post-masonry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/content-profile-post.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/content-profile-post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/content-related.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/content-related.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-audio.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-audio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-magazine.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-magazine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-video.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/formats/format-video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/includes/breadcrumb.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/includes/breadcrumb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/loop-featured-slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/loop-featured-slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/loop-home-slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/loop-home-slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/loop-popular-slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/loop-popular-slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/template-home-revolution.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/template-home-revolution.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/template-home-slider-2.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/template-home-slider-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/template-home-slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/template-home-slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/template-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/template-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cube/widgets/widget-topposts.php" afterPath="$PROJECT_DIR$/wp-content/themes/cube/widgets/widget-topposts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,11 +27,11 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cube-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="352" column="10" lean-forward="true" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
+            <state relative-caret-position="709">
+              <caret line="373" column="56" lean-forward="false" selection-start-line="373" selection-start-column="56" selection-end-line="373" selection-end-column="56" />
               <folding>
-                <marker date="1523289838608" expanded="true" signature="12033:12295" ph="..." />
-                <marker date="1523289838608" expanded="true" signature="12247:12285" ph="{...}" />
+                <marker date="1523290092702" expanded="true" signature="12033:12295" ph="..." />
+                <marker date="1523290092702" expanded="true" signature="12247:12285" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,7 +65,7 @@
             <state relative-caret-position="3402">
               <caret line="189" column="85" lean-forward="false" selection-start-line="189" selection-start-column="85" selection-end-line="189" selection-end-column="85" />
               <folding>
-                <marker date="1517854665917" expanded="true" signature="5729:5776" ph="..." />
+                <marker date="1523290060182" expanded="true" signature="5729:5776" ph="..." />
               </folding>
             </state>
           </provider>
@@ -442,12 +400,12 @@
       <workItem from="1518633345488" duration="833000" />
       <workItem from="1518797246142" duration="81000" />
       <workItem from="1521286117303" duration="2219000" />
-      <workItem from="1523287938126" duration="1259000" />
+      <workItem from="1523287938126" duration="1513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151120000" />
+    <option name="totallyTimeSpent" value="151374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="1028" extended-state="6" />
@@ -829,7 +787,7 @@
         <state relative-caret-position="3402">
           <caret line="189" column="85" lean-forward="false" selection-start-line="189" selection-start-column="85" selection-end-line="189" selection-end-column="85" />
           <folding>
-            <marker date="1517854665917" expanded="true" signature="5729:5776" ph="..." />
+            <marker date="1523290060182" expanded="true" signature="5729:5776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -846,11 +804,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cube-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="352" column="10" lean-forward="true" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
+        <state relative-caret-position="709">
+          <caret line="373" column="56" lean-forward="false" selection-start-line="373" selection-start-column="56" selection-end-line="373" selection-end-column="56" />
           <folding>
-            <marker date="1523289838608" expanded="true" signature="12033:12295" ph="..." />
-            <marker date="1523289838608" expanded="true" signature="12247:12285" ph="{...}" />
+            <marker date="1523290092702" expanded="true" signature="12033:12295" ph="..." />
+            <marker date="1523290092702" expanded="true" signature="12247:12285" ph="{...}" />
           </folding>
         </state>
       </provider>

