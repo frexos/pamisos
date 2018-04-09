@@ -41,7 +41,7 @@
                     <?php the_post_thumbnail("slider_image"); ?>
                     <div class="hover-state">
                         <h5><?php the_title(); ?></h5>
-                        <p class="views"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("views","um_lang");?></p>
+                        <p class="views"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("προβολές","um_lang");?></p>
                         <i class="post-icon"></i>
                     </div>
                 </a>

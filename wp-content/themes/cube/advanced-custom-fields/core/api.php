@@ -1274,13 +1274,13 @@ function acf_form( $options = array() )
 		$fields = apply_filters('acf/field_group/get_fields', array(), $acf['id']);
 		
 		
-		echo '<div id="acf_' . $acf['id'] . '" class="postbox acf_postbox ' . $acf['options']['layout'] . '">';
-		echo '<h3 class="hndle"><span>' . $acf['title'] . '</span></h3>';
-		echo '<div class="inside">';
-							
-		do_action('acf/create_fields', $fields, $options['post_id']);
-		
-		echo '</div></div>';
+//		echo '<div id="acf_' . $acf['id'] . '" class="postbox acf_postbox ' . $acf['options']['layout'] . '">';
+//		echo '<h3 class="hndle"><span>' . $acf['title'] . '</span></h3>';
+//		echo '<div class="inside">';
+//
+//		do_action('acf/create_fields', $fields, $options['post_id']);
+//
+//		echo '</div></div>';
 		
 	}}
 	

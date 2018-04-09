@@ -10,6 +10,15 @@ function validateEmail(email) {
 }
 jQuery(document).ready(function($){
 
+    $(".btn-pending").on("click",function(){
+        console.log('show popup');
+        $("html").addClass("has-popup");
+    });
+
+    $(".submit-new input").on("click",function(){
+        $("html").removeClass("has-popup");
+    });
+
     /*Check for retina*/
     if(window.devicePixelRatio > 1){
         $("img[data-retina]").each(function(){

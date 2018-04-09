@@ -45,7 +45,7 @@ class umbrella_topposts extends WP_Widget{
                 <li class="<?php echo toAscii(get_field("media_type")); ?>">
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("thumbnail"); ?><div class="hover-state"></div></a>
                     <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                    <span class="views-count"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("views","um_lang");?></span>
+                    <span class="views-count"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("προβολές","um_lang");?></span>
                     <br style="clear: both;">
                 </li>
                 <?php endwhile; ?>

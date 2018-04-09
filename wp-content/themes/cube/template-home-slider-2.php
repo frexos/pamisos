@@ -121,7 +121,7 @@
                                                 </div>
                                                 <div class="post-brief">
                                                     <h5 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                                                    <p class="views-count"><i class="icon-eye-open"></i><?php echo get_views()." ".__("views","um_lang"); ?></p>
+                                                    <p class="views-count"><i class="icon-eye-open"></i><?php echo get_views()." ".__("προβολές","um_lang"); ?></p>
                                                 </div>
                                                 <div class="related-posts">
                                                     <ul>
@@ -131,7 +131,7 @@
                                                                     <a href="<?php the_permalink(); ?>">
                                                                         <span class="related-title"><?php the_title(); ?></span>
                                                                     </a>
-                                                                    <span class="related-views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("views","um_lang"); ?></span>
+                                                                    <span class="related-views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("προβολές","um_lang"); ?></span>
                                                                 </p>
                                                             </li>
                                                         <?php endwhile;wp_reset_postdata(); ?>
@@ -155,7 +155,7 @@
                                                 </div>
                                                 <div class="post-brief">
                                                     <h5 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                                                    <p class="views-count"><i class="icon-eye-open"></i><?php echo get_views()." ".__("views","um_lang"); ?></p>
+                                                    <p class="views-count"><i class="icon-eye-open"></i><?php echo get_views()." ".__("προβολές","um_lang"); ?></p>
                                                 </div>
                                                 <div class="related-posts">
                                                     <ul>
@@ -165,7 +165,7 @@
                                                                     <a href="<?php the_permalink(); ?>">
                                                                         <span class="related-title"><?php the_title(); ?></span>
                                                                     </a>
-                                                                    <span class="related-views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("views","um_lang"); ?></span>
+                                                                    <span class="related-views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("προβολές","um_lang"); ?></span>
                                                                 </p>
                                                             </li>
                                                         <?php endwhile;wp_reset_postdata(); ?>

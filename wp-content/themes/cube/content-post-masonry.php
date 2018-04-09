@@ -15,7 +15,7 @@ $terms_html_array = implode(", ",$terms_html_array);
     </a>
     <div class="post-brief">
         <h5 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-        <p class="post-views"><span class="views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("views","um_lang"); ?></span>
+        <p class="post-views"><span class="views"><i class="icon-eye-open"></i><?php echo get_views()." ".__("προβολές","um_lang"); ?></span>
             <span class="category"><i class="icon-folder-open"></i><?php echo $terms_html_array; ?></span></p>
     </div>
 </div>

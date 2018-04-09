@@ -99,9 +99,11 @@
             <div class="row">
                 <a href="#" class="menu-trigger"><i class="icon-reorder"></i></a>
                 <a href="<?php echo site_url(); ?>" class="logo span2">
-                    <img src="<?php the_field("site_logo","options"); ?>" />
+<!--                    <img src="--><?php //the_field("site_logo","options"); ?><!--" />-->
+                    <h2><?php echo get_bloginfo( 'name' ); ?></h2>
+
                 </a>
-                <form action="<?php echo site_url(); ?>" class="main-search span5">
+                <form action="<?php echo site_url(); ?>" class="main-search span4">
                     <p>
                         <input type="text" id="search-input" name="s" placeholder="Αναζήτηση">
                         <button type="submit" id="search-send" name="search-send" value="l" style="font-family: 'FontAwesome';" class="btn btn-success">
@@ -109,23 +111,6 @@
                         </button>
                     </p>
                 </form>
-
-                <?php if($GLOBALS["allow_users_to_publish"] && (is_front_page() != true)): ?>
-                <div class="account-section span5">
-                    <?php if(!is_user_logged_in()): ?>
-                    <div class="not-logged visible">
-                        <p><a href="#" class="login-button"><?php _e("Login","um_lang"); ?></a><a href="#" class="signup-button"><?php _e("Create an account","um_lang"); ?></a></p>
-                    </div>
-                    <?php else: ?>
-                    <div class="logged">
-                        <p>
-                            <a href="<?php echo site_url()."/".$GLOBALS["um_submit"]; ?>" class="new-post-button highlighted-button"><?php _e("New Post","um_lang"); ?></a>
-                            <a href="<?php echo site_url()."/".$GLOBALS["um_profile"]; ?>" class="account-button"><?php _e("Account","um_lang"); ?> <i class="icon-user"></i></a>
-                            <a href="<?php echo wp_logout_url(site_url()); ?>" class="logout-button"><i class="icon-off"></i></a></p>
-                    </div>
-                    <?php endif; ?>
-                </div>
-                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -135,9 +120,48 @@
             <div class="row">
                 <div class="span12">
                     <?php wp_nav_menu(array("theme_location" => "main_menu","menu_id"=>"main_menu","menu_class"=>"main_menu")); ?>
+			<!-- SITE UNDER TESTING -->
+<!--			<div style="float: right; margin-top: 14px; color: #ff8100;">-->
+<!--				<h4>Σύντομα κοντά σας</h4>-->
+<!--			</div>-->
+
+			<!-- // SITE UNDER TESTING -->
+                    <?php if($GLOBALS["allow_users_to_publish"] && (is_front_page() == true)): ?>
+                        <div class="pam-account account-section span6">
+                            <?php if(!is_user_logged_in()): ?>
+                                <div class="btn-strip not-logged visible">
+                                    <a href="#" class="pam-hero-btn login-button"><?php _e("Login","um_lang"); ?></a><a href="#" class="pam-hero-btn signup-button"><?php _e("Create an account","um_lang"); ?></a></div>
+
+                            <?php else: ?>
+                                <div class="btn-strip logged">
+
+                                    <a href="<?php echo site_url()."/".$GLOBALS["um_submit"]; ?>" class="pam-hero-btn new-post-button highlighted-button"><?php _e("Ανεβάστε Φωτογραφία","um_lang"); ?></a>
+                                    <a href="<?php echo site_url()."/".$GLOBALS["um_profile"]; ?>" class="pam-hero-btn account-button"><?php _e("Λογαριασμός","um_lang"); ?> <i class="icon-user"></i></a>
+                                    <a href="<?php echo wp_logout_url(site_url()); ?>" class="pam-hero-btn logout-button"><i class="icon-off"></i></a>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if($GLOBALS["allow_users_to_publish"] && (is_front_page() != true)): ?>
+                        <div class="pam-account account-section span6">
+                            <?php if(!is_user_logged_in()): ?>
+                                <div class="btn-strip not-logged visible">
+                                    <a href="#" class="login-button"><?php _e("Login","um_lang"); ?></a><a href="#" class="signup-button"><?php _e("Create an account","um_lang"); ?></a>
+                                </div>
+                            <?php else: ?>
+                                <div class="btn-strip logged">
+
+                                        <a href="<?php echo site_url()."/".$GLOBALS["um_submit"]; ?>" class="new-post-button highlighted-button"><?php _e("Ανεβάστε Φωτογραφία","um_lang"); ?></a>
+                                        <a href="<?php echo site_url()."/".$GLOBALS["um_profile"]; ?>" class="account-button"><?php _e("Account","um_lang"); ?> <i class="icon-user"></i></a>
+                                        <a href="<?php echo wp_logout_url(site_url()); ?>" class="logout-button"><i class="icon-off"></i></a>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
-        </div>
+        </div>	
     </div>
 
     <div class="mobile-menu-holder">
@@ -155,6 +179,7 @@
             <div class="l_holder">
                 <h4><i class="icon-user"></i><?php _e("Login","um_lang"); ?></h4>
                 <form action="#" id="login-form">
+                    <h4>1ος τρόπος, συμπληρώστε username και password</h4>
                     <p>
                         <input type="text" id="username" name="username" placeholder="Username">
                     </p>
@@ -163,10 +188,11 @@
                     </p>
                     <p>
                         <input type="submit" name="login" id="login" value="συνδεση">
-                        <?php if($GLOBALS["um_facebook_app_id"]): ?>
-                            <a href="#" class="facebook-login"><?php _e("Facebook","um_lang"); ?></a>
-                        <?php endif; ?>
                     </p>
+                    <h4>2ος τρόπος, συνδεθείτε με τον λογαριασμό σας (αν έχετε) στο Facebook</h4>
+                    <?php if($GLOBALS["um_facebook_app_id"]): ?>
+                        <a href="#" class="facebook-login"><?php _e("Facebook","um_lang"); ?></a>
+                    <?php endif; ?>
                     <p class="qw"><a href="#" onclick="show_forgot();" ><?php _e("Forgot Password","um_lang"); ?></a> / <a onclick="show_signup();" href="#"><?php _e("New Account","um_lang"); ?></a></p>
                 </form>
             </div>

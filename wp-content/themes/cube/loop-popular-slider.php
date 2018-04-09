@@ -67,7 +67,7 @@ if($the_query->found_posts):
                     <li>
                         <a href="<?php the_permalink(); ?>" class="<?php echo toAscii(get_field("media_type")); ?>"><div class="hover-state"></div> <?php the_post_thumbnail("um_thumbnail"); ?></a>
                         <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                        <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("views","um_lang");?></p>
+                        <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("προβολές","um_lang");?></p>
                         <br style="clear: both;">
                     </li>
                 <?php endwhile; ?>

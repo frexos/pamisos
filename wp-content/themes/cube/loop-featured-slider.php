@@ -24,7 +24,7 @@
                         <li>
                             <a class="<?php echo toAscii(get_field("media_type")); ?>" href="<?php the_permalink(); ?>"><div class="hover-state"></div><?php the_post_thumbnail("um_thumbnail"); ?></a>
                             <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                            <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("views","um_lang");?></p>
+                            <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("προβολές","um_lang");?></p>
                         </li>
                     <?php endforeach; ?>
                     <?php wp_reset_postdata(); ?>
@@ -58,7 +58,7 @@
                     <li>
                         <a class="<?php echo toAscii(get_field("media_type")); ?>" href="<?php the_permalink(); ?>"><div class="hover-state"></div><?php the_post_thumbnail("um_thumbnail"); ?></a>
                         <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                        <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("views","um_lang");?></p>
+                        <p class="views-counter"><i class="icon-eye-open"></i><?php echo get_views(false)." ".__("προβολές","um_lang");?></p>
                     </li>
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>

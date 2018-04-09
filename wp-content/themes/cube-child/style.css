@@ -8,14 +8,165 @@ Text Domain:  cube-child
 */
 /*@import url("../cube/assets/css/style.css");*/
 
-.logo img {
+.logo img, a.logo {
     width: 50px;
     height: auto;
+}
+
+.logo h2 {
+    font-weight: 300;
+    color: #8b9fc4;
+}
+
+html, p , ul li {
+    font-size: 16px;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+/*   HAS POPUP   */
+
+html.has-popup {
+    height: 100%;
+}
+
+html.has-popup body {
+    position: relative;
+    min-height: 100%;
+}
+
+html.has-popup body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 1;
+}
+
+ul#main_menu {
+    margin-top: -10px;
+}
+
+ul.sub-menu li:hover, ul.sub-menu li.current-menu-item, .main_menu > li.menu-item > .sub-menu li:hover, .main_menu > li.menu-item > .sub-menu li.current-menu-item {
+    background-color: white;
+}
+
+ul.sub-menu li:hover a, ul.sub-menu li.current-menu-item a, .main_menu > li.menu-item > .sub-menu li:hover a, .main_menu > li.menu-item > .sub-menu li.current-menu-item a {
+    color: #8b9fc4!important;
+}
+
+.menu-section .account-section a {
+    height: initial!important;
+    border: 0!important;
+    margin-left: 4px!important;
+    border-radius: 5px;
+    padding: 10px!important;
+    display: block!important;
+}
+
+.menu-section .row > .span12 > div > ul li a{
+    height: initial!important;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.menu-section .row > .span12 > div > ul > li:hover, .current-menu-item {
+    height: initial!important;
+}
+
+.user-profile-top p {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.main_menu > li.menu-item > .sub-menu li + li {
+    border-top: 1px solid #ffffff;
+}
+
+.main_menu > li.menu-item > .sub-menu {
+    background-color: #8b9fc4;
+}
+
+.main_menu > li.menu-item > .sub-menu li {
+    padding: 12px 0;
+}
+
+.pam-account.account-section {
+    display: flex!important;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.pam-account.account-section .btn-strip {
+    height: initial!important;
+    display: flex!important;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#header .header-top-section form button[type=submit] {
+    right: 21px;
+}
+
+.menu-section {
+    height: 46px;
+}
+
+form.main-search {
+    float: right;
+    width: initial!important;
+}
+
+.menu-section .row > .span12 > div > ul > li {
+    height: 51px!important;
+}
+
+.popup-pending {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    bottom: 24%;
+    left: calc(50% - 150px);
+}
+
+html.has-popup .popup-pending {
+    display: block;
+}
+
+.btn-pending {
+    cursor: pointer;
+}
+
+.profile-btn__container {
+    margin-top: 20px;
+}
+
+/* //  HAS POPUP   */
+
+.about-user-cont p, .contact-text > * {
+    font-size: 16px;
 }
 
 #header .header-top-section {
     padding-top: 5px;
     line-height: 40px;
+}
+
+.header-top-section {
+    line-height: inherit;
+}
+
+.featured-section {
+    padding: 18px 0;
 }
 
 mobile-menu-holder {
@@ -26,11 +177,19 @@ mobile-menu-holder {
 }
 
 .pam-account {
-    width: 100%;
+    float: right;
     text-align: center;
     position: absolute;
     z-index: 6;
     margin: 0;
+}
+
+#header .header-top-section form.main-search p {
+    width: 288px;
+}
+
+#header .header-top-section {
+    min-height: inherit;
 }
 
 #header .header-top-section form button[type=submit] {
@@ -64,17 +223,22 @@ mobile-menu-holder {
     margin-top: 20px;
 }
 
-#header .header-top-section .account-section a {
+#header .menu-section .account-section {
+    top: 156px;
+    left: 0;
+}
+
+#header .menu-section .account-section a {
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
     background-color: #8b9fc4;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
-#header .header-top-section .account-section a:hover {
+#header .menu-section .account-section a:hover {
     background-color: #FFFFFF!important;
     color: #8b9fc4!important;
 }
@@ -89,11 +253,12 @@ mobile-menu-holder {
     color: white;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 300;
 }
 
 .home .main-section {
 	/*background-image: url(http://46.101.115.215/pamisos.com/public_html/wp-content/uploads/2017/04/paper_bg.jpg);*/
-    background-color: #ededed;
+    background-color: #FFFFFF;
     padding-bottom: 42px;
 }
 
@@ -117,6 +282,78 @@ mobile-menu-holder {
 
 .home-one a.load-more i {
     color: #FFFFFF;
+}
+
+.searchandfilter ul {
+    margin: 0;
+}
+
+.searchandfilter li:last-child {
+    position: relative;
+    top: -6px;
+}
+
+.page-template-template-home-masonry h1, .page-template-template-home-masonry h4 {
+    font-weight: 300;
+    text-align: center;
+    color: #8b9fc4;
+}
+
+.page-template-template-home-masonry h1 {
+    margin-top: 30px;
+}
+
+.page-template-template-home-masonry .span4 h1 {
+    margin-top: 65px;
+}
+
+.home-one .page-posts {
+    padding-top: 0;
+}
+
+.home-articles {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #8b9fc4;
+}
+
+.pthumb img {
+    margin-bottom: 10px;
+}
+
+.ptitle h2 {
+    overflow-wrap: break-word;
+}
+
+.post-main-cont p, .video.single-post .span8.main-content .toggle-content p, .audio.single-post .span8.main-content .toggle-content p {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.article-post {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-post h2 a{
+    font-weight: 300;
+    color: #8b9fc4;
+}
+
+.article-post h2 a:hover {
+    font-weight: 300;
+    color: #8b9fc4;
+    text-decoration: underline;
+}
+
+.post-type-archive-articles .bread-crumb, .search-results .bread-crumb {
+    display: none;
+}
+
+.post-type-archive-articles {
+    padding: 0 15px;
 }
 
 .categories-single__wrapper {
@@ -155,6 +392,7 @@ mobile-menu-holder {
 
 .cat-text__wrapper {
     position: relative;
+    box-shadow: 0px 0px 4px #888888;
     top: -22px;
     padding: 10px;
     background-color: white;
@@ -191,17 +429,78 @@ mobile-menu-holder {
     background-color: #000000;
 }
 
+.messages .message_holder {
+    font-size: 1.1rem;
+    max-width: 400px;
+    line-height: 1.6rem;
+}
+
+.mobile-menu-holder {
+    z-index: 2;
+}
+
+.user-profile-top a.subscribe {
+    display: none;
+}
+
+.span4.user-pic {
+    min-height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.l_holder h4 {
+    max-width: 270px;
+}
+
+.pam-hero-btn.login-button {
+    margin-right: 20px;
+}
+
+.user-profile-top p, .category-top h5, .bread-crumb p, .bread-crumb a, .bread-crumb li {
+    font-size: 16px;
+}
+
+/*
+    FRONT END SUBMISSION
+*/
+
+.user-profile-top{
+    padding: 20px 0;
+}
+
+.add-post-top {
+    padding: 0;
+}
+
+.media-modal-content label.setting,
+.media-modal-content .attachment-info .details a.edit-attachment,
+.media-modal-content .media-types.media-types-required-info{
+    display: none;
+}
+
+.logged-in .wp-editor-tools.hide-if-no-js {
+    display: none;
+}
+
+.acf-image-uploader,
+#poststuff #wp-post_content-wrap,
+.select-category {
+    margin-bottom: 32px;
+}
+
+#poststuff textarea[name=post_tags] {
+    margin-top: 6px;
+    margin-bottom: 32px;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 480px) {
 
-    .logo img {
-        width: initial;
-    }
-
     #header .header-top-section {
         padding-top: 0;
-        line-height: 117px;
     }
 
     .categories-single__wrapper {
@@ -219,6 +518,24 @@ mobile-menu-holder {
 }
 
 @media only screen and (min-width: 768px) {
+
+    .logo img, a.logo {
+        width: initial;
+        height: 60px;
+    }
+
+    #header .menu-section .account-section {
+        top: inherit;
+        left: inherit;
+        right: 20px;
+    }
+
+    #header .header-top-section {
+        /*line-height: 117px;*/
+        padding-top: 16px;
+        height: 62px;
+        overflow: hidden;
+    }
 
     .pam-account {
         position: relative;

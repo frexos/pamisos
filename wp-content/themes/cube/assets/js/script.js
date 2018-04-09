@@ -98,7 +98,7 @@ jQuery(document).ready(function($){
     });
 
     $(".back").on("click", function() {
-    	$(".login,.signup,.messages,.dialogs").stop(true,true).fadeOut("fast");
+        $(".login,.signup,.messages,.dialogs").stop(true,true).fadeOut("fast");
     });
 
     /*$(".login,.signup,.messages").click(function(e){
@@ -148,7 +148,7 @@ jQuery(document).ready(function($){
         });
         return false;
     });
-	
+    
 
     $("a.facebook-login").on("click",function(e){
         e.preventDefault();
@@ -176,13 +176,13 @@ jQuery(document).ready(function($){
         e.preventDefault();
         FB.login(function(response) {
             if (response.authResponse) {
-                FB.api('/me', function(response) {
-                    $("form#signup-form").find("#name").val(response.email);
+                FB.api('/me', { fields: 'name, email' }, function(response) {
+                    $("form#signup-form").find("#name").val(response.name);
                     $("form#signup-form").find("#email").val(response.email);
                     $("form#signup-form").find("#facebook_id").val(response.id);
                     var ajax_data = {
                         action : "signup_user",
-                        um_username : response.email,
+                        um_username : response.name,
                         um_email : response.email,
                         um_facebookid : response.id
                     };
@@ -199,6 +199,15 @@ jQuery(document).ready(function($){
     });
     /*Signup User*/
 
+    $(".btn-pending").on("click",function(){
+        console.log('show popup');
+        $("html").addClass("has-popup");
+    });
+
+    $(".submit-new input").on("click",function(){
+        $("html").removeClass("has-popup");
+    });
+
     $(".login-button").on("click",function(e){
         e.preventDefault();
         show_login();
@@ -209,7 +218,7 @@ jQuery(document).ready(function($){
         show_signup();
     });
     /*Login + Create Account Handling*/
-	
+    
     /*Forgot Password*/
     $("form#forgot-form").on("submit",function(){
         var email = $(this).find("#email").val();
@@ -589,9 +598,9 @@ jQuery(document).ready(function($){
             duration : 300
         });
 
-    	var homeFeatHeight = $('.span6.feat-post.video:visible').eq(0).height();
-    	$('.feat-pop-posts > .row > .span2').css({'height': homeFeatHeight + 'px'}).find('a').css({'height': '50%'});
-    	$('.feat-posts-list').css({'height': homeFeatHeight + 'px'});
+        var homeFeatHeight = $('.span6.feat-post.video:visible').eq(0).height();
+        $('.feat-pop-posts > .row > .span2').css({'height': homeFeatHeight + 'px'}).find('a').css({'height': '50%'});
+        $('.feat-posts-list').css({'height': homeFeatHeight + 'px'});
 
         if(document.getElementById("map")) {
             initialize();
@@ -624,6 +633,8 @@ jQuery(document).ready(function($){
                     });
                 }
             });
+            $("div.page-posts").masonry( 'reload' );
+            $("div.page-posts").masonry( 'reload' );
         });
 
         $("div.page-posts").masonry({
@@ -644,8 +655,8 @@ jQuery(document).ready(function($){
 
     $(window).resize(function(){
         var homeFeatHeight = $('.span6.feat-post.video:visible').eq(0).height();
-    	$('.feat-pop-posts > .row > .span2').css({'height': homeFeatHeight + 'px'}).find('a').css({'height': '50%'});
-    	$('.feat-posts-list').css({'height': homeFeatHeight + 'px'});
+        $('.feat-pop-posts > .row > .span2').css({'height': homeFeatHeight + 'px'}).find('a').css({'height': '50%'});
+        $('.feat-posts-list').css({'height': homeFeatHeight + 'px'});
 
         center_dialog();
 

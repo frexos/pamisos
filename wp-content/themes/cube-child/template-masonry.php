@@ -85,6 +85,8 @@ if(isset($_POST["um_paged"]) && $_POST["um_paged"]){
 		</div>
 		<div class="main-section">
 			<div class="home-one container">
+                <h4 style="margin: 20px 0; width: 100%;">Αναζήτηση Φωτογραφίας</h4>
+                <?php echo do_shortcode('[searchandfilter taxonomies="search,category,post_tag" post_types="post"]'); ?>
 				<div class="row">
                     <div class="page-posts masonry">
                     <?php
